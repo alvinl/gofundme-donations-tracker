@@ -1,0 +1,27 @@
+{
+  "name": "@alvinl/gfm-tracker",
+  "version": "1.0.0",
+  "description": "Tracks donations to a given GoFundMe project",
+  "main": "lib/tracker/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinl/gofundme-donations-tracker.git"
+  },
+  "author": "Alvin Lazaro <me@alvinl.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvinl/gofundme-donations-tracker/issues"
+  },
+  "homepage": "https://github.com/alvinl/gofundme-donations-tracker#readme",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.5"
+  }
+}
